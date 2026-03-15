@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Josue.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Idle0000" x="767" y="712" width="352" height="695" frameX="-177" frameY="-16" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Idle0001" x="1042" y="2133" width="337" height="684" frameX="-183" frameY="-27" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Idle0002" x="698" y="2133" width="344" height="688" frameX="-179" frameY="-23" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Idle0003" x="0" y="2133" width="349" height="689" frameX="-177" frameY="-22" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Idle0004" x="1119" y="712" width="351" height="693" frameX="-177" frameY="-18" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Idle0005" x="767" y="712" width="352" height="695" frameX="-177" frameY="-16" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Left0000" x="2104" y="712" width="366" height="695" frameX="-143" frameY="-17" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Left0001" x="385" y="712" width="382" height="695" frameX="-141" frameY="-17" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Left0002" x="449" y="0" width="423" height="694" frameX="-95" frameY="-18" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="LeftMISS0000" x="2482" y="0" width="369" height="713" frameX="-140" frameY="1" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="LeftMISS0001" x="370" y="1421" width="359" height="710" frameX="-164" frameY="-2" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="LeftMISS0002" x="2482" y="1422" width="360" height="710" frameX="-159" frameY="-2" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Up0000" x="2104" y="0" width="378" height="712" frameX="-159" frameY="2" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Up0001" x="0" y="712" width="385" height="709" frameX="-147" frameY="-1" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Up0002" x="0" y="0" width="449" height="712" frameX="-83" frameY="2" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="UpMISS0000" x="1724" y="0" width="380" height="712" frameX="-156" frameY="2" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="UpMISS0001" x="2482" y="713" width="369" height="709" frameX="-163" frameY="-1" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="UpMISS0002" x="0" y="1421" width="370" height="712" frameX="-162" frameY="2" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Right0000" x="729" y="1421" width="353" height="686" frameX="-218" frameY="-25" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Right0001" x="1724" y="712" width="360" height="681" frameX="-190" frameY="-30" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Right0002" x="872" y="0" width="420" height="681" frameX="-132" frameY="-30" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="RightMISS0000" x="349" y="2133" width="349" height="688" frameX="-219" frameY="-23" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="RightMISS0001" x="2851" y="0" width="335" height="691" frameX="-217" frameY="-20" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Down0000" x="1789" y="1421" width="338" height="621" frameX="-187" frameY="-90" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Down0001" x="1082" y="1421" width="365" height="640" frameX="-165" frameY="-71" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="Down0002" x="1292" y="0" width="432" height="638" frameX="-97" frameY="-73" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="DownMISS0000" x="2127" y="1421" width="337" height="621" frameX="-187" frameY="-90" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="DownMISS0001" x="1379" y="2133" width="343" height="642" frameX="-187" frameY="-69" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="DownMISS0002" x="1447" y="1421" width="342" height="638" frameX="-187" frameY="-73" frameWidth="720" frameHeight="720"/>
+	<SubTexture name="RightMISS0002" x="2851" y="691" width="333" height="691" frameX="-216" frameY="-20" frameWidth="720" frameHeight="720"/>
+</TextureAtlas>
