@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="doremid.png">
+<SubTexture name="doremid down0000" x="5200" y="1746" width="802" height="1624" frameX="-248" frameY="-238" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid down0001" x="3477" y="1839" width="804" height="1619" frameX="-245" frameY="-243" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid down0002" x="3716" y="3640" width="803" height="1616" frameX="-251" frameY="-247" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid idle0000" x="2582" y="1839" width="895" height="1747" frameX="-177" frameY="-115" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid idle0001" x="4296" y="0" width="904" height="1747" frameX="-173" frameY="-116" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid idle0002" x="911" y="3640" width="937" height="1734" frameX="-153" frameY="-128" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid idle0003" x="2775" y="3640" width="941" height="1724" frameX="-155" frameY="-138" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid idle0004" x="1848" y="3640" width="927" height="1732" frameX="-162" frameY="-130" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid idle0005" x="0" y="3640" width="911" height="1742" frameX="-169" frameY="-120" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid idle0006" x="4296" y="1747" width="900" height="1746" frameX="-175" frameY="-116" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid left0000" x="1747" y="1839" width="835" height="1748" frameX="-139" frameY="-115" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid left0001" x="5200" y="0" width="831" height="1746" frameX="-140" frameY="-117" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid left0002" x="918" y="1839" width="829" height="1750" frameX="-130" frameY="-113" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid right0000" x="2467" y="0" width="912" height="1804" frameX="-384" frameY="-67" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid right0001" x="3379" y="0" width="917" height="1802" frameX="-384" frameY="-69" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid right0002" x="0" y="1839" width="918" height="1801" frameX="-387" frameY="-70" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid up0000" x="1642" y="0" width="825" height="1817" frameX="-249" frameY="-42" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid up0001" x="821" y="0" width="821" height="1826" frameX="-248" frameY="-33" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="doremid up0002" x="0" y="0" width="821" height="1839" frameX="-238" frameY="-21" frameWidth="1400" frameHeight="1952" />
+</TextureAtlas>
