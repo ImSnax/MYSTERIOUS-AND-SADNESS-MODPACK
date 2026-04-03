@@ -1,44 +1,44 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [490, 540],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "doremid idle"
+			"fps": 24,
+			"name": "doremid idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [487, 540],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "doremid left"
+			"fps": 24,
+			"name": "doremid left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [434, 541],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "doremid down"
+			"fps": 24,
+			"name": "doremid down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [489, 540],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "doremid up"
+			"fps": 24,
+			"name": "doremid up",
+			"indices": []
 		},
 		{
-			"offsets": [506, 517],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHT",
 			"loop": false,
-			"name": "doremid right"
+			"offsets": [506, 517],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "doremid right",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -47,7 +47,7 @@
 	"position": [0, 0],
 	"healthicon": "doremi",
 	"flip_x": false,
-	"healthbar_colors": [161, 161, 161],
+	"healthbar_colors": [255, 38, 72],
 	"camera_position": [0, 0],
 	"sing_duration": 4,
 	"scale": 0.4,
