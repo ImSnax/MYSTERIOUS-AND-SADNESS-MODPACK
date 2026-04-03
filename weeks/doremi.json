@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [490, 540],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "doremid idle"
+		},
+		{
+			"offsets": [487, 540],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "doremid left"
+		},
+		{
+			"offsets": [434, 541],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "doremid down"
+		},
+		{
+			"offsets": [489, 540],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "doremid up"
+		},
+		{
+			"offsets": [506, 517],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "doremid right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Doremi_Assets",
+	"position": [0, 0],
+	"healthicon": "doremi",
+	"flip_x": false,
+	"healthbar_colors": [255, 38, 72],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 0.4,
+	"_editor_isPlayer": false
+}
