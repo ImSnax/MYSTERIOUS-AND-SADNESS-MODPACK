@@ -13,7 +13,7 @@
 	"hiddenUntilUnlocked": false,
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"difficulties": "",
+	"difficulties": "normal",
 	"weekCharacters": [
 		"dad",
 		"bf",
