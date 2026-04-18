@@ -1,4 +1,11 @@
 {
+	"storyName": "A familiar face",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "Dweek",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"Carnival",
@@ -8,20 +15,22 @@
 				33,
 				73
 			]
+		],
+		[
+			"Misora",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "stage",
-	"difficulties": "normal",
 	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
+		"",
+		"",
+		""
 	],
-	"storyName": "Your New Week",
-	"weekName": "Custom Week",
-	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
 }
