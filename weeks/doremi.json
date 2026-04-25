@@ -5,6 +5,11 @@
 	"weekBackground": "Dweek",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"hideStoryMode": false,
 	"songs": [
 		[
@@ -24,13 +29,17 @@
 				113,
 				253
 			]
+		],
+		[
+			"Pirika Pirilala",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Custom Week"
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": false
 }
