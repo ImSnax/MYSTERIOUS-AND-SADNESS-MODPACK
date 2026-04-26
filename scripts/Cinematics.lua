@@ -9,6 +9,10 @@ local videoInicioJugado = false
 local videoFinalJugado = false
 
 function onStartCountdown()
+    if not isStoryMode then
+        return Function_Continue
+    end
+
     local song = string.lower(songName)
     
     if configuracionVideos[song] and configuracionVideos[song].inicio ~= '' and not videoInicioJugado then
@@ -22,14 +26,21 @@ function onStartCountdown()
 end
 
 function onEndSong()
+    if not isStoryMode then
+        return Function_Continue
+    end
+
     local song = string.lower(songName)
     
     if configuracionVideos[song] and configuracionVideos[song].final ~= '' and not videoFinalJugado then
+        makeLuaSprite('pantallaNegraFinal', '', 0, 0)
+        makeGraphic('pantallaNegraFinal', screenWidth, screenHeight, '000000')
+        setObjectCamera('pantallaNegraFinal', 'other')
+        addLuaSprite('pantallaNegraFinal', true)
+        
         startVideo(configuracionVideos[song].final)
         videoFinalJugado = true
         return Function_Stop 
     end
     return Function_Continue
 end
-
--- Instrucciones para poner una cinematica:         _Poner el nombre de la canción en minúscula.                                        _Dejar en blanco si no hay una cinematica al inicio o al final
