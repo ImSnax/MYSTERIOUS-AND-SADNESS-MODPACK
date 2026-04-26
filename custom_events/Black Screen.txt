@@ -1,0 +1,3 @@
+Black Screen Event
+Value 1: Writes "Black Screen" to activate.
+Value 2: Duration in steps (example: 16).
