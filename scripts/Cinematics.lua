@@ -3,7 +3,7 @@ local configuracionVideos = {
         inicio = 'D-week1', 
         final = ''
     },
-    ['pirika-pirilala'] = {
+    ['pirika_pirilala'] = {
         inicio = 'D-week2', 
         final = 'D-week3'
     },
