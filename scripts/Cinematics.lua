@@ -3,6 +3,10 @@ local configuracionVideos = {
         inicio = 'D-week1', 
         final = ''
     },
+    ['pirika-pirilala'] = {
+        inicio = 'D-week2', 
+        final = 'D-week3'
+    },
 }
 
 local videoInicioJugado = false
