@@ -1,53 +1,53 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [1058, 751],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "sealed doremi idle"
+			"fps": 24,
+			"name": "sealed doremi idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [877, 623],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "sealed doremi down"
+			"fps": 24,
+			"name": "sealed doremi down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [998, 749],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "sealed doremi left"
+			"fps": 24,
+			"name": "sealed doremi left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [842, 717],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "sealed doremi right"
+			"fps": 24,
+			"name": "sealed doremi right",
+			"indices": []
 		},
 		{
-			"offsets": [979, 745],
-			"indices": [],
-			"fps": 24,
-			"anim": "singUP",
 			"loop": false,
-			"name": "sealed doremi up"
+			"offsets": [979, 745],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "sealed doremi up",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/Sealed_Doremi",
 	"position": [0, 0],
-	"healthicon": "face",
+	"healthicon": "icon-sealed_doremi",
 	"flip_x": false,
-	"healthbar_colors": [161, 161, 161],
+	"healthbar_colors": [196, 0, 0],
 	"camera_position": [-210, 10],
 	"sing_duration": 4,
 	"scale": 0.3,
