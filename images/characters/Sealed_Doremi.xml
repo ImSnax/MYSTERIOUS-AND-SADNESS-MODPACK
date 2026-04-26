@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sealed doremi.png">
+<SubTexture name="sealed doremi idle0000" x="1486" y="4610" width="1486" height="2289" frameX="-310" frameY="-63" frameWidth="2500" frameHeight="2400" />
+<SubTexture name="sealed doremi idle0001" x="0" y="4610" width="1486" height="2292" frameX="-310" frameY="-60" frameWidth="2500" frameHeight="2400" />
+<SubTexture name="sealed doremi idle0002" x="4098" y="2309" width="1486" height="2295" frameX="-310" frameY="-57" frameWidth="2500" frameHeight="2400" />
+<SubTexture name="sealed doremi idle0003" x="2612" y="2309" width="1486" height="2298" frameX="-310" frameY="-54" frameWidth="2500" frameHeight="2400" />
+<SubTexture name="sealed doremi idle0004" x="4126" y="0" width="1486" height="2301" frameX="-310" frameY="-51" frameWidth="2500" frameHeight="2400" />
+<SubTexture name="sealed doremi down0000" x="5636" y="4610" width="1025" height="1884" frameX="-222" frameY="-34" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealed doremi down0001" x="1031" y="6902" width="1041" height="1854" frameX="-222" frameY="-64" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealed doremi down0002" x="0" y="6902" width="1031" height="1872" frameX="-222" frameY="-46" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealed doremi down0003" x="8718" y="0" width="1025" height="1875" frameX="-222" frameY="-43" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealed doremi left0000" x="0" y="2309" width="1470" height="2301" frameX="-197" frameY="-31" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi left0001" x="5612" y="0" width="1522" height="2298" frameX="-147" frameY="-41" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi left0002" x="2618" y="0" width="1508" height="2308" frameX="-163" frameY="-33" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi left0003" x="0" y="0" width="1476" height="2309" frameX="-186" frameY="-29" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi right0000" x="4114" y="4610" width="1522" height="1922" frameX="-117" frameY="-311" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi right0001" x="7134" y="0" width="1584" height="1918" frameX="-117" frameY="-316" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi right0002" x="7134" y="1918" width="1561" height="1918" frameX="-117" frameY="-316" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi right0003" x="7134" y="3836" width="1534" height="1918" frameX="-117" frameY="-316" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi up0000" x="2972" y="4610" width="1142" height="2283" frameX="-296" frameY="-47" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi up0001" x="1476" y="0" width="1142" height="2309" frameX="-296" frameY="-21" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi up0002" x="5612" y="2298" width="1142" height="2297" frameX="-296" frameY="-33" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="sealed doremi up0003" x="1470" y="2309" width="1142" height="2300" frameX="-296" frameY="-30" frameWidth="1800" frameHeight="2352" />
+</TextureAtlas>
