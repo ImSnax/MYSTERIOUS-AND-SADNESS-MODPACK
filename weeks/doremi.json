@@ -5,41 +5,41 @@
 	"weekBackground": "Dweek",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hideStoryMode": false,
 	"songs": [
 		[
 			"Carnival",
 			"doremi",
 			[
-				255,
+				195,
 				33,
 				73
 			]
 		],
 		[
 			"Misora",
-			"face",
+			"doremi",
 			[
-				146,
-				113,
-				253
+				135,
+				0,
+				75
 			]
 		],
 		[
 			"Pirika Pirilala",
 			"sealed_doremi",
 			[
-				196,
+				96,
 				0,
 				0
 			]
 		]
 	],
-	"weekName": "Custom Week",
-	"hiddenUntilUnlocked": false
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hideStoryMode": false,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
 }
