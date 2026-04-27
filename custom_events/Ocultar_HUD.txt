@@ -1,0 +1,3 @@
+Hide and Show HUD
+Value 1: Speed to hide (Ej: 1 = 1s , 0 = instant)
+Value 2: Speed to appear (Ej: 1 = 1s , 0 = instant)
