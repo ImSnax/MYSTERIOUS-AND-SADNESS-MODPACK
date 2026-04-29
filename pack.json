@@ -1,9 +1,9 @@
 {
-	"name": "Name",
-	"description": "Description",
+	"name": "FNF Mysterious and Sadness DEMO",
+	"description": "Made by The Mistery N' Sadness Team.",
 	"restart":false,
 	"runsGlobally": false,
-	"color": [170, 0, 255],
+	"color": [255, 227, 163],
 	"discordRPC": "863222024192262205",
 	"iconFramerate": 10
 }
