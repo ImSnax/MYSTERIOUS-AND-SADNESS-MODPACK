@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bfdeath.png">
+<SubTexture name="BF dies0000" x="7995" y="2241" width="1500" height="1631" frameX="-175" frameY="-685" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF dies0001" x="4553" y="4557" width="1516" height="2242" frameX="-175" frameY="-74" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF dies0002" x="3036" y="4557" width="1517" height="2243" frameX="-175" frameY="-73" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF dies0003" x="6469" y="2248" width="1518" height="2244" frameX="-175" frameY="-72" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF dies0004" x="0" y="4557" width="1518" height="2244" frameX="-175" frameY="-72" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF dies0005" x="1518" y="4557" width="1518" height="2244" frameX="-175" frameY="-72" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead Loop0000" x="6069" y="4557" width="1511" height="2241" frameX="-175" frameY="-75" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead Loop0001" x="0" y="0" width="1666" height="2286" frameX="-120" frameY="-30" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead Loop0002" x="0" y="2286" width="1602" height="2271" frameX="-152" frameY="-45" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead Loop0003" x="4921" y="0" width="1548" height="2257" frameX="-175" frameY="-59" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead confirm0000" x="7995" y="0" width="1511" height="2241" frameX="-175" frameY="-75" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead confirm0001" x="1666" y="0" width="1642" height="2281" frameX="-132" frameY="-35" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead confirm0002" x="3308" y="0" width="1613" height="2274" frameX="-146" frameY="-42" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead confirm0003" x="1602" y="2286" width="1584" height="2268" frameX="-161" frameY="-48" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead confirm0004" x="3186" y="2286" width="1555" height="2261" frameX="-175" frameY="-55" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead confirm0005" x="4921" y="2257" width="1540" height="2254" frameX="-175" frameY="-62" frameWidth="1800" frameHeight="2352" />
+<SubTexture name="BF Dead confirm0006" x="6469" y="0" width="1526" height="2248" frameX="-175" frameY="-68" frameWidth="1800" frameHeight="2352" />
+</TextureAtlas>
