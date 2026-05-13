@@ -1,0 +1,45 @@
+{
+	"songs": [
+		[
+			"5Kids",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Broken Letters",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Dark Magic",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "distorted",
+	"difficulties": "normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Corrupted magic never dies",
+	"weekName": "Custom Week",
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
