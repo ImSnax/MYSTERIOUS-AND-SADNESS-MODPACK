@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 0],
+			"indices": [0, 1, 1, 2, 3, 4],
+			"fps": 12,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Left"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [0, 1, 1, 2, 3, 4],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Right"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [0, 1, 1, 2, 3, 4],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Down"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [0, 1, 1, 2, 3, 4],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Up"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [0, 1, 2, 1],
+			"fps": 12,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "Rightmiss"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [0, 1, 2, 1],
+			"fps": 12,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "Downmiss"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [0, 1, 2, 1],
+			"fps": 12,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "Upmiss"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [0, 1, 2, 1],
+			"fps": 12,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "Leftmiss"
+		},
+		{
+			"offsets": [0, 0],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle",
+			"loop": false,
+			"name": "Idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Dess",
+	"position": [-60, 40],
+	"healthicon": "Dess",
+	"flip_x": true,
+	"healthbar_colors": [141, 101, 161],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}
