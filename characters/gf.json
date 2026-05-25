@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"offsets": [550, 625],
+			"loop": true,
+			"fps": 30,
+			"anim": "scared",
+			"indices": [],
+			"name": "GF FEAR"
+		},
+		{
+			"loop": false,
+			"offsets": [544, 634],
+			"anim": "danceRight",
+			"fps": 20,
+			"name": "GF Dancing Beat",
+			"indices": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+		},
+		{
+			"offsets": [544, 634],
+			"indices": [20, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "GF Dancing Beat"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/GF_assets",
+	"position": [0, 0],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [165, 0, 77],
+	"camera_position": [10, 80],
+	"sing_duration": 4,
+	"scale": 0.35,
+	"_editor_isPlayer": false
+}
