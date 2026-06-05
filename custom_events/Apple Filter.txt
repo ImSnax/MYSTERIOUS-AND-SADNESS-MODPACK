@@ -1,0 +1,3 @@
+Value 1: on/off
+Value 2: black/white
+Must be off to change to a different color.
