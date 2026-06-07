@@ -11,7 +11,7 @@ function onCreate()
 	setLuaSpriteScrollFactor('rocas1', 1.1, 1.1);
 	scaleObject('rocas1', 2.3, 2.3);
 	
-	makeLuaSprite('suelo', 'pirika_pirilalaStage/suelo', -900, -850);
+	makeLuaSprite('suelo', 'pirika_pirilalaStage/suelo', -900, -800);
 	scaleObject('suelo', 3.4, 3.4);
 	
 	addLuaSprite('bg', false);
