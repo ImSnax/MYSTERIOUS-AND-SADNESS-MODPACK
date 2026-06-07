@@ -1,0 +1,3 @@
+Change the zoom and camera speed
+Value1: ChangeZoom
+Value2: CameraSpeed
