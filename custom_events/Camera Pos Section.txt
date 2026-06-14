@@ -1,4 +1,0 @@
-Camera Pos Section
-Fix the camera in a specific position for 1 section (16 steps)
-Value1: Position X (Ej: 500)
-Value2: Position Y (Ej: 300)
