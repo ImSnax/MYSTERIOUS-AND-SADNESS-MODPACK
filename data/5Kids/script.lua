@@ -10,19 +10,5 @@ function onStartCountdown()
 end
 
 function onCreate()
-
     setProperty('skipCountdown', true)
-    
-    makeLuaSprite('logo', '5kidsStage/4kids', 0, 0) 
-    setObjectCamera('logo', 'other')
-    addLuaSprite('logo', true)
-    scaleObject('logo', 0.2, 0.2)
-
-    if downscroll then
-        setProperty('logo.y', 40) 
-    else
-        setProperty('logo.y', 610)
-    end
-
-    setProperty('logo.x', screenWidth / 1.035 - getProperty('logo.width') / 1.035)
 end
