@@ -6,7 +6,7 @@ function onCreate()
             
             setPropertyFromGroup('unspawnNotes', i, 'texture', 'noteSkins/DamageNote')       
             
-  setPropertyFromGroup('unspawnNotes', i, 'noteSplashData.texture', 'noteSplashes/DamageNoteSplashes');           
+  setPropertyFromGroup('unspawnNotes', i, 'noteSplashData.texture', 'noteSplashes/noteSplashes');           
   
   setPropertyFromGroup('unspawnNotes', i, 'noteSplashData.r', 0xFF0000);
 				setPropertyFromGroup('unspawnNotes', i, 'noteSplashData.g', 0x00FF00);
