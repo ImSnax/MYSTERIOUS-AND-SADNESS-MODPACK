@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sophi_anarchist.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="sophi_anarchist down0000" x="6089" y="3364" width="1052" height="1684" frameX="-562" frameY="-366" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist down0001" x="1052" y="5096" width="1052" height="1674" frameX="-562" frameY="-376" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist down0002" x="4208" y="5096" width="1052" height="1664" frameX="-562" frameY="-386" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist down0003" x="5260" y="5096" width="1052" height="1654" frameX="-562" frameY="-396" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist idle0000" x="6089" y="1680" width="1052" height="1684" frameX="-556" frameY="-366" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist idle0001" x="3156" y="5096" width="1052" height="1664" frameX="-556" frameY="-386" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist idle0002" x="2104" y="5096" width="1052" height="1668" frameX="-556" frameY="-382" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist idle0003" x="4078" y="3412" width="1052" height="1672" frameX="-556" frameY="-378" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist idle0004" x="0" y="5096" width="1052" height="1676" frameX="-556" frameY="-374" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist idle0005" x="2035" y="1715" width="1052" height="1680" frameX="-556" frameY="-370" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist left0000" x="0" y="0" width="2029" height="1715" frameX="-1" frameY="-335" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist left0001" x="0" y="1715" width="2035" height="1697" frameX="2" frameY="-353" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist left0002" x="6089" y="0" width="2035" height="1680" frameX="2" frameY="-370" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist left0003" x="2033" y="3412" width="2045" height="1673" frameX="2" frameY="-377" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist right0000" x="8124" y="1619" width="1015" height="1656" frameX="-593" frameY="-394" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist right0001" x="8124" y="3275" width="1016" height="1638" frameX="-593" frameY="-412" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist right0002" x="8124" y="0" width="1041" height="1619" frameX="-593" frameY="-431" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist right0003" x="6312" y="5096" width="1064" height="1604" frameX="-593" frameY="-446" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist up0000" x="0" y="3412" width="2033" height="1684" frameX="-14" frameY="-366" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist up0001" x="4059" y="1697" width="2030" height="1692" frameX="-17" frameY="-358" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist up0002" x="4059" y="0" width="2030" height="1697" frameX="-17" frameY="-353" frameWidth="2048" frameHeight="2048"/>
+	<SubTexture name="sophi_anarchist up0003" x="2029" y="0" width="2030" height="1703" frameX="-17" frameY="-347" frameWidth="2048" frameHeight="2048"/>
+</TextureAtlas>
