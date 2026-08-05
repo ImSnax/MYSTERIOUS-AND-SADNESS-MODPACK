@@ -1,84 +1,84 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [85, 183],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "BF NOTE LEFT0",
-			"indices": []
+			"indices": [],
+			"name": "BF NOTE LEFT0"
 		},
 		{
-			"loop": false,
 			"offsets": [92, 176],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "BF NOTE DOWN0",
-			"indices": []
+			"indices": [],
+			"name": "BF NOTE DOWN0"
 		},
 		{
-			"loop": false,
 			"offsets": [93, 170],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "BF NOTE UP0",
-			"indices": []
+			"indices": [],
+			"name": "BF NOTE UP0"
 		},
 		{
-			"loop": false,
 			"offsets": [105, 176],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "BF NOTE RIGHT0",
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF NOTE RIGHT0"
+		},
+		{
+			"loop": false,
+			"offsets": [104, 170],
+			"anim": "idle",
+			"fps": 15,
+			"name": "BF idle dance",
 			"indices": []
 		},
 		{
-			"offsets": [104, 170],
 			"loop": false,
-			"fps": 15,
-			"anim": "idle",
-			"indices": [],
-			"name": "BF idle dance"
-		},
-		{
 			"offsets": [55, 178],
-			"loop": false,
-			"fps": 10,
 			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "BF NOTE LEFT MISS"
+			"fps": 10,
+			"name": "BF NOTE LEFT MISS",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [86, 184],
-			"loop": false,
-			"fps": 10,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "BF NOTE DOWN MISS"
+			"fps": 10,
+			"name": "BF NOTE DOWN MISS",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [103, 180],
-			"loop": false,
-			"fps": 10,
 			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "BF NOTE RIGHT MISS"
+			"fps": 10,
+			"name": "BF NOTE RIGHT MISS",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [99, 172],
-			"loop": false,
-			"fps": 10,
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "BF NOTE UP MISS"
+			"fps": 10,
+			"name": "BF NOTE UP MISS",
+			"indices": []
 		},
 		{
-			"offsets": [109, 178],
-			"indices": [],
-			"fps": 10,
-			"anim": "hurt",
 			"loop": false,
-			"name": "BF hit"
+			"offsets": [109, 178],
+			"anim": "hurt",
+			"fps": 10,
+			"name": "BF hit",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
@@ -88,7 +88,7 @@
 	"healthicon": "boyfriend",
 	"flip_x": true,
 	"healthbar_colors": [0, 195, 230],
-	"camera_position": [0, 0],
+	"camera_position": [60, -90],
 	"sing_duration": 4,
 	"scale": 0.75,
 	"_editor_isPlayer": true

@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [476, 749],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "sophi_anarchist left"
+		},
+		{
+			"offsets": [485, 751],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "sophi_anarchist down"
+		},
+		{
+			"offsets": [486, 750],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "sophi_anarchist up"
+		},
+		{
+			"offsets": [482, 750],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "sophi_anarchist right"
+		},
+		{
+			"offsets": [482, 751],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "sophi_anarchist idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/sophi_anarchist",
+	"position": [0, 0],
+	"healthicon": "sophi_anarchist",
+	"flip_x": false,
+	"healthbar_colors": [0, 64, 213],
+	"camera_position": [-160, -170],
+	"sing_duration": 4,
+	"scale": 0.5,
+	"_editor_isPlayer": false
+}
