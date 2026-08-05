@@ -1,35 +1,35 @@
-local stepParaQuitar = -1
-
 function onCreate()
-    makeLuaSprite('eventoPantallaNegra', '', -1000, -1000)
-    makeGraphic('eventoPantallaNegra', 4000, 4000, '000000')
+    makeLuaSprite('blackOverlay', '', -1000, -1000)
+    makeGraphic('blackOverlay', 4000, 4000, '000000')
     
-    setScrollFactor('eventoPantallaNegra', 0, 0)
+    setObjectCamera('blackOverlay', 'game')
+    setScrollFactor('blackOverlay', 0, 0)
     
-    setObjectCamera('eventoPantallaNegra', 'game')
+    setProperty('blackOverlay.alpha', 0)
     
-    setProperty('eventoPantallaNegra.alpha', 0)
-    
-    addLuaSprite('eventoPantallaNegra', true)
+    addLuaSprite('blackOverlay', true)
 end
 
 function onEvent(name, value1, value2)
-    if value1 == 'Black Screen' then
-        setProperty('eventoPantallaNegra.alpha', 1)
+    if name == 'Black Screen' then
         
-        local duracionSteps = tonumber(value2)
-        
-        if duracionSteps == nil or duracionSteps <= 0 then
-            duracionSteps = 16
+        local estado = string.lower(value1)
+        local duracion = tonumber(value2)
+        if duracion == nil then
+            duracion = 0 
         end
         
-        stepParaQuitar = curStep + duracionSteps
-    end
-end
-
-function onStepHit()
-    if stepParaQuitar ~= -1 and curStep >= stepParaQuitar then
-        setProperty('eventoPantallaNegra.alpha', 0) 
-        stepParaQuitar = -1 
+        local targetAlpha = 0
+        if estado == 'on' then
+            targetAlpha = 1
+        elseif estado == 'off' then
+            targetAlpha = 0
+        end
+        
+        if duracion > 0 then
+            doTweenAlpha('fadeNegroTween', 'blackOverlay', targetAlpha, duracion, 'linear')
+        else
+            setProperty('blackOverlay.alpha', targetAlpha)
+        end
     end
 end

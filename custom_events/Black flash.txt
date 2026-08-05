@@ -1,3 +1,3 @@
-Flashes Camera
-
-Value 1: speed
+BlackFlash
+value 1: on/off
+value 2: time

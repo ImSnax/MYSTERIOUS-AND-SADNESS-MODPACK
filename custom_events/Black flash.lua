@@ -1,20 +1,33 @@
-function onEvent(n,v1,v2)
+function onCreate()
+    makeLuaSprite('blackScreen', '', 0, 0)
+    makeGraphic('blackScreen', screenWidth, screenHeight, '000000')
 
+    setObjectCamera('blackScreen', 'hud')
+    setObjectOrder('blackScreen', getObjectOrder('healthBar') - 1)
 
-	if n == 'Black flash' then
+    setProperty('blackScreen.alpha', 0)
+    addLuaSprite('blackScreen', true)
+end
 
-	   makeLuaSprite('flashblack', '', 0, 0);
-        makeGraphic('flashblack',1920,1080,'000000')
-	      addLuaSprite('flashblack', true);
-	      setLuaSpriteScrollFactor('flashblack',0,0)
-              setObjectCamera('flashblack', 'hud')
-	      setProperty('flashblack.scale.x',2)
-	      setProperty('flashblack.scale.y',2)
-	      setProperty('flashblack.alpha',0)
-		setProperty('flashblack.alpha',1)
-		doTweenAlpha('flTw','flashblack',0,v1,'linear')
-	end
+function onEvent(name, value1, value2)
+    if name == 'Black flash' then
+        local mode = value1
+        local speed = tonumber(value2) or 0
 
+        if mode == 'on' then
+            if speed > 0 then
+                doTweenAlpha('blackFadeIn', 'blackScreen', 1, speed, 'linear')
+            else
+                setProperty('blackScreen.alpha', 1)
+            end
+        end
 
-
+        if mode == 'off' or mode == '' then
+            if speed > 0 then
+                doTweenAlpha('blackFadeOut', 'blackScreen', 0, speed, 'linear')
+            else
+                setProperty('blackScreen.alpha', 0)
+            end
+        end
+    end
 end
