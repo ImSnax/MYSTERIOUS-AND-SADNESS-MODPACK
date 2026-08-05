@@ -1,13 +1,13 @@
 {	
-	"titlex": -25,
+	"titlex": -10,
 	"titley": 4,
 	"startx": 100,
 	"starty": 600,
-	"gfx": 625,
+	"gfx": 677,
 	"gfy": 1,
 	"backgroundSprite": "",
-	"bpm": 140,
+	"bpm": 102,
 	
-	"animation": "gfDance",
+	"animation": "sadoremi idle",
 	"idle": false
 }
