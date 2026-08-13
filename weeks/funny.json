@@ -1,0 +1,45 @@
+{
+	"songs": [
+		[
+			"Parody",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Comedy",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Chaser Dreams",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "funny",
+	"difficulties": "normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "ns cff",
+	"weekName": "Custom Week",
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
