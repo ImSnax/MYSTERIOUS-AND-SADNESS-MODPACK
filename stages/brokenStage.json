@@ -15,7 +15,7 @@
 	"stageUI": "",
 	"boyfriend": [
 		640,
-		1810
+		180
 	],
 	"objects": [
 		{
@@ -33,7 +33,7 @@
 		0
 	],
 	"defaultZoom": 0.7,
-	"camera_speed": 1,
+	"camera_speed": 67,
 	"directory": "",
 	"opponent": [
 		100,

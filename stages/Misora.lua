@@ -1,33 +1,33 @@
 local isSwinging = false
 local swingTime = 0
-local swingIntensity = 2.5
+local swingIntensity = 2
 local swingSpeed = 2
 
 function onCreate()
 
-    makeLuaSprite('night', 'misoraStage/night', -910, -500);
-    scaleObject('night', 2.2, 2.2);
+    makeLuaSprite('night', 'stages/misoraStage/night', -920, -520);
+    scaleObject('night', 1.2, 1.2);
     
-    makeLuaSprite('day', 'misoraStage/day', -910, -500);
-    scaleObject('day', 2.2, 2.2);
+    makeLuaSprite('day', 'stages/misoraStage/day', -920, -520);
+    scaleObject('day', 1.2, 1.2);
     
-    makeLuaSprite('doremiDead', 'misoraStage/doremiDead', 400, -790);
+    makeLuaSprite('doremiDead', 'stages/misoraStage/doremiDead', 400, -790);
     scaleObject('doremiDead', 0.65, 0.65);
     setObjectCamera('doremiDead', 'other')
     
-    makeLuaSprite('fb_1', 'misoraStage/fb_1', -165, 0);
+    makeLuaSprite('fb_1', 'stages/misoraStage/fb_1', -165, 0);
     scaleObject('fb_1', 2.5, 1.95)
     setProperty('fb_1.alpha', 0)
     
-    makeLuaSprite('fb_2', 'misoraStage/fb_2', -5, -70);
+    makeLuaSprite('fb_2', 'stages/misoraStage/fb_2', -5, -70);
     scaleObject('fb_2', 3.4, 3.2)
     setProperty('fb_2.alpha', 0)
     
-    makeLuaSprite('fb_3', 'misoraStage/fb_3', -170, 0);
+    makeLuaSprite('fb_3', 'stages/misoraStage/fb_3', -170, 0);
     scaleObject('fb_3', 4, 4)
     setProperty('fb_3.alpha', 0)
     
-    makeLuaSprite('fb_4', 'misoraStage/fb_4', -5, -200);
+    makeLuaSprite('fb_4', 'stages/misoraStage/fb_4', -5, -200);
     scaleObject('fb_4', 3.2, 3.1)
     setProperty('fb_4.alpha', 0)
     
@@ -42,13 +42,13 @@ function onCreate()
 end
 
 function onStepHit()
-    if curStep == 442 then
+    if curStep == 431 then
         setProperty('doremiDead.x', 400)
         setProperty('doremiDead.y', -790)
         local anchoReal = getProperty('doremiDead.frameWidth')
         setProperty('doremiDead.origin.x', anchoReal / 2)
         setProperty('doremiDead.origin.y', 0)
-        doTweenY('caidaDoremi', 'doremiDead', -30, 0.5, 'backOut')
+        doTweenY('caidaDoremi', 'doremiDead', -30, 2, 'backIn')
     end
 
     if curStep == 480 then
@@ -62,6 +62,7 @@ function onStepHit()
         setProperty('iconP2.visible', false)
         setProperty('Health.visible', false)
         setProperty('scoreTxt.visible', false)
+        setProperty('camZoomingMult', 0);
     end
     
     if curStep == 1024 then
@@ -74,26 +75,26 @@ function onStepHit()
     end
     
     if curStep == 1040 then
-        doTweenAlpha('fadeIn', 'fb_1', 0.4, 1.5, 'linear')
-        doTweenX('deslizX', 'fb_1', -5, 8, 'linear')
+        doTweenAlpha('fb_1', 'fb_1', 0.4, 1.5, 'linear')
+        doTweenX('desl1', 'fb_1', -5, 8, 'linear')
     end
     
     if curStep == 1096 then
-        doTweenAlpha('fadeIn', 'fb_1', 0, 1, 'linear')
-        doTweenAlpha('fadeIn2', 'fb_2', 0.4, 1.5, 'linear')
-        doTweenX('deslizX', 'fb_2', -135, 8, 'linear')
+        doTweenAlpha('fb_1', 'fb_1', 0, 0.5, 'linear')
+        doTweenAlpha('fb_2', 'fb_2', 0.4, 1.5, 'linear')
+        doTweenX('desl2', 'fb_2', -135, 8, 'linear')
     end
     
     if curStep == 1160 then
-        doTweenAlpha('fadeIn2', 'fb_2', 0, 1, 'linear')
-        doTweenAlpha('fadeIn3', 'fb_3', 0.4, 1.5, 'linear')
-        doTweenX('deslizX', 'fb_3', -5, 8, 'linear')
+        doTweenAlpha('fb_2', 'fb_2', 0, 0.5, 'linear')
+        doTweenAlpha('fb_3', 'fb_3', 0.4, 1.5, 'linear')
+        doTweenX('desl3', 'fb_3', -5, 8, 'linear')
     end
     
     if curStep == 1224 then
-        doTweenAlpha('fadeIn3', 'fb_3', 0, 1, 'linear')
-        doTweenAlpha('fadeIn4', 'fb_4', 0.4, 1.5, 'linear')
-        doTweenX('deslizX', 'fb_4', -105, 8, 'linear')
+        doTweenAlpha('fb_3', 'fb_3', 0, 0.5, 'linear')
+        doTweenAlpha('fb_4', 'fb_4', 0.4, 1.5, 'linear')
+        doTweenX('desl4', 'fb_4', -105, 8, 'linear')
     end
 
     if curStep == 1314 then
@@ -113,6 +114,7 @@ function onStepHit()
         setSpriteShader('dad', 'night')
         setSpriteShader('boyfriend', 'night')
         setSpriteShader('gf', 'night')
+        setProperty('camZoomingMult', 1);
     end
     
         if curStep == 1328 then
