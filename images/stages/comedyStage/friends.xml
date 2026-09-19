@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="friends.png">
+<SubTexture name="friends idle0000" x="0" y="0" width="1733" height="620" frameX="-161" frameY="-1066" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0001" x="0" y="620" width="1733" height="611" frameX="-161" frameY="-1075" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0002" x="1733" y="593" width="1733" height="592" frameX="-161" frameY="-1095" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0003" x="0" y="1231" width="1732" height="583" frameX="-161" frameY="-1104" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0004" x="1733" y="0" width="1733" height="593" frameX="-161" frameY="-1093" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0005" x="1733" y="0" width="1733" height="593" frameX="-161" frameY="-1093" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0006" x="1733" y="0" width="1733" height="593" frameX="-161" frameY="-1093" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0007" x="1733" y="0" width="1733" height="593" frameX="-161" frameY="-1093" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0008" x="1733" y="0" width="1733" height="593" frameX="-161" frameY="-1093" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0009" x="1733" y="0" width="1733" height="593" frameX="-161" frameY="-1093" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="friends idle0010" x="1733" y="0" width="1733" height="593" frameX="-161" frameY="-1093" frameWidth="2000" frameHeight="2000" />
+</TextureAtlas>
