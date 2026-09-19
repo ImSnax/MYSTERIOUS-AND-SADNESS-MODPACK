@@ -22,16 +22,23 @@ function onCreatePost()
             return;
             ]]
         )
-    else
-        runHaxeCode(
-            [[
-                game.healthBarBG.loadGraphic(Paths.image("]]..healthImage..[["));
-                game.healthBarBG.offset.set(50,6);
-                game.remove(game.healthBarBG);
-                game.insert(game.members.indexOf(game.healthBar)+1,game.healthBarBG);
-                game.healthBarBG.antialiasing = ]]..tostring(barAntialiasing)..[[;
-                return;
-            ]]
-        )
+end
+   for i = 0, getProperty('unspawnNotes.length') - 1 do
+        setPropertyFromGroup('unspawnNotes', i, 'noteSplashData.useRGBShader', false)     
+    end
+end
+
+function onEvent(name, value1, value2)
+    if name == 'Change Character' then
+        runTimer('forceIconUpdate', 0.05)
+    end
+end
+
+function onTimerCompleted(tag, loops, loopsLeft)
+    if tag == 'forceIconUpdate' then
+        local currentHealth = getProperty('health')
+
+        setProperty('health', currentHealth + 0.0001)
+        setProperty('health', currentHealth)
     end
 end
