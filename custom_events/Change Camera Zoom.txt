@@ -1,0 +1,3 @@
+Cambia el zoom
+Value1: zoom
+Value2: duración
