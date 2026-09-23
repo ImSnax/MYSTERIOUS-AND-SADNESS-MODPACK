@@ -1,3 +1,0 @@
-BlackFlash
-value 1: on/off
-value 2: time
