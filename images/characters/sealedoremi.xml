@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sealedoremi.png">
+<SubTexture name="sealedoremi idle0000" x="4724" y="0" width="1011" height="1502" frameX="-145" frameY="-193" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi idle0001" x="3713" y="1571" width="1011" height="1507" frameX="-145" frameY="-188" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi idle0002" x="3713" y="0" width="1011" height="1571" frameX="-145" frameY="-124" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi idle0003" x="2020" y="3283" width="1013" height="1483" frameX="-145" frameY="-212" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi idle0004" x="3033" y="3283" width="991" height="1475" frameX="-165" frameY="-220" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi idle0005" x="1011" y="3283" width="1009" height="1488" frameX="-147" frameY="-207" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi idle0006" x="0" y="3283" width="1011" height="1494" frameX="-145" frameY="-201" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi idle0007" x="4724" y="1502" width="1011" height="1500" frameX="-145" frameY="-195" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi up0000" x="0" y="0" width="742" height="1703" frameX="-406" frameY="-9" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi up0001" x="742" y="0" width="722" height="1703" frameX="-415" frameY="-10" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi up0002" x="2205" y="0" width="730" height="1683" frameX="-414" frameY="-29" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi left0000" x="4024" y="3283" width="865" height="1388" frameX="-69" frameY="-271" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi left0001" x="5735" y="1381" width="858" height="1374" frameX="-65" frameY="-285" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi left0002" x="5735" y="0" width="870" height="1381" frameX="-53" frameY="-278" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi down0000" x="1464" y="0" width="741" height="1692" frameX="-415" frameY="-1" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi down0001" x="5735" y="2755" width="751" height="1271" frameX="-420" frameY="-423" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi down0002" x="2935" y="0" width="778" height="1664" frameX="-402" frameY="-30" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi right0000" x="0" y="1703" width="1177" height="1580" frameX="-175" frameY="-193" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi right0001" x="2376" y="1703" width="1179" height="1572" frameX="-182" frameY="-202" frameWidth="1400" frameHeight="1952" />
+<SubTexture name="sealedoremi right0002" x="1177" y="1703" width="1199" height="1578" frameX="-157" frameY="-195" frameWidth="1400" frameHeight="1952" />
+</TextureAtlas>
