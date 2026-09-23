@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [419, 220],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DOREMIGLITCH down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [469, 199],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DOREMIGLITCH up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [469, 212],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "DOREMIGLITCH right",
+			"indices": []
+		},
+		{
+			"offsets": [405, 210],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "DOREMIGLITCH idle"
+		},
+		{
+			"offsets": [407, 207],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "DOREMIGLITCH left"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/DOREMIGLITCH",
+	"position": [0, 0],
+	"healthicon": "doremiglitch",
+	"flip_x": false,
+	"healthbar_colors": [208, 51, 99],
+	"camera_position": [-150, -40],
+	"sing_duration": 4,
+	"scale": 0.67,
+	"_editor_isPlayer": false
+}
