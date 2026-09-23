@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="DOREMIGLITCH.png">
+<SubTexture name="DOREMIGLITCH idle0000" x="498" y="0" width="509" height="1114" frameX="-339" frameY="-96" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH idle0001" x="0" y="0" width="498" height="1116" frameX="-350" frameY="-94" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH idle0002" x="0" y="1116" width="637" height="1101" frameX="-277" frameY="-102" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH idle0003" x="2095" y="0" width="609" height="1105" frameX="-296" frameY="-98" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH idle0004" x="1536" y="0" width="559" height="1112" frameX="-323" frameY="-98" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH idle0005" x="1007" y="0" width="529" height="1113" frameX="-331" frameY="-97" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH idle0006" x="0" y="0" width="498" height="1116" frameX="-350" frameY="-94" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH right0000" x="739" y="2217" width="687" height="1010" frameX="-505" frameY="-192" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH right0001" x="2248" y="2217" width="697" height="1008" frameX="-509" frameY="-194" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH right0002" x="4147" y="1004" width="723" height="1003" frameX="-506" frameY="-199" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH right0003" x="4147" y="2007" width="748" height="1003" frameX="-503" frameY="-204" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH right0004" x="3450" y="0" width="697" height="1008" frameX="-509" frameY="-194" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH up0000" x="0" y="2217" width="739" height="1088" frameX="-294" frameY="-125" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH up0001" x="2704" y="0" width="746" height="1091" frameX="-293" frameY="-122" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH up0002" x="1388" y="1116" width="748" height="1094" frameX="-288" frameY="-119" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH up0003" x="637" y="1116" width="751" height="1098" frameX="-287" frameY="-115" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH up0004" x="2704" y="1091" width="746" height="1091" frameX="-293" frameY="-122" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH left0000" x="1426" y="2217" width="822" height="1009" frameX="-29" frameY="-238" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH left0001" x="4147" y="0" width="833" height="1004" frameX="-15" frameY="-244" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH left0002" x="839" y="3305" width="842" height="998" frameX="-10" frameY="-249" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH left0003" x="1681" y="3305" width="851" height="987" frameX="-1" frameY="-261" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH left0004" x="0" y="3305" width="839" height="1004" frameX="-12" frameY="-244" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH down0000" x="2136" y="1116" width="468" height="554" frameX="-419" frameY="-636" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH down0001" x="3450" y="2139" width="469" height="556" frameX="-437" frameY="-634" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH down0002" x="3450" y="1574" width="493" height="565" frameX="-429" frameY="-625" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH down0003" x="3450" y="1008" width="496" height="566" frameX="-419" frameY="-623" frameWidth="1280" frameHeight="1280" />
+<SubTexture name="DOREMIGLITCH down0004" x="3450" y="2695" width="469" height="556" frameX="-437" frameY="-634" frameWidth="1280" frameHeight="1280" />
+</TextureAtlas>
