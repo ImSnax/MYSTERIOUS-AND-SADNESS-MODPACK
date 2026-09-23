@@ -1,3 +1,4 @@
 Cambia el zoom
 Value1: zoom
 Value2: duración
+No recomiendo poner beats junto a este evento
