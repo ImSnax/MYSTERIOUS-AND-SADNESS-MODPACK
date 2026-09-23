@@ -1,46 +1,36 @@
+local function trim(s)
+    return s and s:match("^%s*(.-)%s*$") or ""
+end
+
 function onCreate()
-    makeLuaSprite('blackScreen', '', 0, 0)
-    makeGraphic('blackScreen', screenWidth, screenHeight, '000000')
-
-    setObjectCamera('blackScreen', 'hud')
-    setObjectOrder('blackScreen', getObjectOrder('healthBar') - 1)
-
-    setProperty('blackScreen.alpha', 0)
-    addLuaSprite('blackScreen', true)
+    makeLuaSprite('blackScreenEv', '', -600, -600)
+    makeGraphic('blackScreenEv', 2500, 2500, '000000')
+    setScrollFactor('blackScreenEv', 0, 0)
+    setProperty('blackScreenEv.alpha', 0)
+    addLuaSprite('blackScreenEv', true)
 end
 
 function onEvent(name, value1, value2)
     if name == 'Black Screen' then
-        local mode = value1
-        local speed = 0
-        local commaIndex = string.find(value1, ",")
-        if commaIndex ~= nil then
-            mode = string.sub(value1, 1, commaIndex - 1)
-            speed = tonumber(string.sub(value1, commaIndex + 1)) or 0
-        end
-        
-        mode = string.gsub(mode, "^%s*(.-)%s*$", "%1")
+        local params = stringSplit(value1, ',')
+        local mode = string.lower(trim(params[1] or 'off'))
+        local duration = tonumber(trim(params[2] or '0')) or 0
 
-        if value2 == 'other' then
-            setObjectCamera('blackScreen', 'other')
-            setObjectOrder('blackScreen', 0)
+        local camTarget = string.lower(trim(value2 or 'game'))
+        if camTarget ~= 'hud' and camTarget ~= 'game' then
+            camTarget = 'game'
+        end
+
+        setObjectCamera('blackScreenEv', camTarget)
+
+        local targetAlpha = (mode == 'on' or mode == '1' or mode == 'true') and 1 or 0
+
+        cancelTween('blackScreenTween')
+
+        if duration > 0 then
+            doTweenAlpha('blackScreenTween', 'blackScreenEv', targetAlpha, duration, 'linear')
         else
-            setObjectCamera('blackScreen', 'hud')
-            setObjectOrder('blackScreen', getObjectOrder('healthBar') - 1)
-        end
-
-        if mode == 'on' then
-            if speed > 0 then
-                doTweenAlpha('blackFadeIn', 'blackScreen', 1, speed, 'linear')
-            else
-                setProperty('blackScreen.alpha', 1)
-            end
-        elseif mode == 'off' or mode == '' then
-            if speed > 0 then
-                doTweenAlpha('blackFadeOut', 'blackScreen', 0, speed, 'linear')
-            else
-                setProperty('blackScreen.alpha', 0)
-            end
+            setProperty('blackScreenEv.alpha', targetAlpha)
         end
     end
 end
