@@ -1,5 +1,5 @@
 {
-	"player1": "bf_beat",
+	"player1": "bf",
 	"gfVersion": "gf",
 	"notes": [
 		{
@@ -996,7 +996,7 @@
 			"sectionBeats": 4,
 			"sectionNotes": [
 				[83200, 4, 0],
-				[83200, 0, 0],
+				[83200, 3, 0],
 				[83500, 5, 0],
 				[83500, 2, 0],
 				[83800, 4, 0],
@@ -1015,8 +1015,8 @@
 		{
 			"sectionBeats": 4,
 			"sectionNotes": [
-				[84800, 3, 0],
 				[84800, 5, 750],
+				[84800, 0, 0],
 				[85000, 1, 0],
 				[85200, 3, 0],
 				[85400, 0, 550],
@@ -1051,7 +1051,7 @@
 			"sectionNotes": [
 				[88000, 2, 0],
 				[88000, 4, 750],
-				[88200, 0, 0],
+				[88200, 3, 0],
 				[88400, 1, 0],
 				[88600, 2, 550],
 				[89200, 1, 350]
@@ -1707,7 +1707,8 @@
 		[
 			6400,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.050", "0"],
+				["Cam_Settings", "0.8", ""]
 			]
 		],
 		[
@@ -1725,67 +1726,78 @@
 		[
 			7600,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.050", "0"],
+				["Cam_Settings", "0.75", ""]
 			]
 		],
 		[
 			25600,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"],
+				["Cam_Settings", "0.8", ""]
 			]
 		],
 		[
 			25900,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"]
 			]
 		],
 		[
 			26200,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"]
 			]
 		],
 		[
 			26400,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"]
 			]
 		],
 		[
 			26800,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"]
 			]
 		],
 		[
 			27200,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.035", "0"],
+				["Cam_Settings", "0.75", ""]
 			]
 		],
 		[
 			38400,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"],
+				["Cam_Settings", "0.8", ""]
 			]
 		],
 		[
 			38700,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"]
 			]
 		],
 		[
 			39000,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"]
 			]
 		],
 		[
 			39200,
 			[
-				["Add Camera Zoom", "0.050", "0"]
+				["Add Camera Zoom", "0.03", "0"]
+			]
+		],
+		[
+			40000,
+			[
+				["Add Camera Zoom", "0.035", "0.01"],
+				["Cam_Settings", "0.75", ""]
 			]
 		],
 		[
@@ -1896,74 +1908,109 @@
 		[
 			96000,
 			[
-				["Add Camera Zoom", "0.050", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			96400,
 			[
-				["Add Camera Zoom", "0.050", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			96800,
 			[
-				["Add Camera Zoom", "0.050", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			102400,
 			[
-				["Camera Follow Pos", "750", "550"],
-				["", "", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
-			103500,
+			102600,
 			[
-				["Camera Follow Pos", "", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
+			]
+		],
+		[
+			102800,
+			[
+				["Add Camera Zoom", "0.050", "0.015"]
+			]
+		],
+		[
+			103000,
+			[
+				["Add Camera Zoom", "0.050", "0.015"]
+			]
+		],
+		[
+			103200,
+			[
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			108800,
 			[
-				["Add Camera Zoom", "0.050", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			109100,
 			[
-				["Add Camera Zoom", "0.050", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			109400,
 			[
-				["Add Camera Zoom", "0.050", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			109600,
 			[
-				["Add Camera Zoom", "0.050", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			110000,
 			[
-				["Add Camera Zoom", "0.050", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
 			115200,
 			[
-				["Camera Follow Pos", "750", "550"]
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
-			116300,
+			115400,
 			[
-				["Camera Follow Pos", "", ""]
+				["Add Camera Zoom", "0.050", "0.015"]
+			]
+		],
+		[
+			115600,
+			[
+				["Add Camera Zoom", "0.050", "0.015"]
+			]
+		],
+		[
+			115800,
+			[
+				["Add Camera Zoom", "0.050", "0.015"]
+			]
+		],
+		[
+			116000,
+			[
+				["Add Camera Zoom", "0.050", "0.015"]
 			]
 		],
 		[
@@ -1975,7 +2022,8 @@
 		[
 			121600,
 			[
-				["Add Camera Zoom", "0.05", "0"]
+				["Add Camera Zoom", "0.05", "0"],
+				["Cam_Settings", "0.7", ""]
 			]
 		],
 		[
@@ -1993,13 +2041,15 @@
 		[
 			122800,
 			[
-				["Add Camera Zoom", "0.05", "0"]
+				["Add Camera Zoom", "0.05", "0"],
+				["Cam_Settings", "0.67", ""]
 			]
 		],
 		[
 			128000,
 			[
-				["Add Camera Zoom", "0.05", "0"]
+				["Add Camera Zoom", "0.05", "0"],
+				["Cam_Settings", "0.72", ""]
 			]
 		],
 		[
