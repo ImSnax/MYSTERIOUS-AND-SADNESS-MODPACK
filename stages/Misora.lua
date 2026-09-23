@@ -1,7 +1,5 @@
-local isSwinging = false
+local doremiSwinging = false
 local swingTime = 0
-local swingIntensity = 2
-local swingSpeed = 2
 
 function onCreate()
 
@@ -15,12 +13,12 @@ function onCreate()
     scaleObject('doremiDead', 0.65, 0.65);
     setObjectCamera('doremiDead', 'other')
     
-    makeLuaSprite('fb_1', 'stages/misoraStage/fb_1', -165, 0);
-    scaleObject('fb_1', 2.5, 1.95)
+    makeLuaSprite('fb_1', 'stages/misoraStage/fb_1', -80, -50);
+    scaleObject('fb_1', 2.38, 2.38)
     setProperty('fb_1.alpha', 0)
     
     makeLuaSprite('fb_2', 'stages/misoraStage/fb_2', -5, -70);
-    scaleObject('fb_2', 3.4, 3.2)
+    scaleObject('fb_2', 3.4, 3.4)
     setProperty('fb_2.alpha', 0)
     
     makeLuaSprite('fb_3', 'stages/misoraStage/fb_3', -170, 0);
@@ -28,7 +26,7 @@ function onCreate()
     setProperty('fb_3.alpha', 0)
     
     makeLuaSprite('fb_4', 'stages/misoraStage/fb_4', -5, -200);
-    scaleObject('fb_4', 3.2, 3.1)
+    scaleObject('fb_4', 3.2, 3.2)
     setProperty('fb_4.alpha', 0)
     
     addLuaSprite('night', false);
@@ -42,15 +40,10 @@ function onCreate()
 end
 
 function onStepHit()
-    if curStep == 431 then
-        setProperty('doremiDead.x', 400)
-        setProperty('doremiDead.y', -790)
-        local anchoReal = getProperty('doremiDead.frameWidth')
-        setProperty('doremiDead.origin.x', anchoReal / 2)
-        setProperty('doremiDead.origin.y', 0)
-        doTweenY('caidaDoremi', 'doremiDead', -30, 2, 'backIn')
-    end
-
+    if curStep == 442 then
+        doTweenY('doremiFallTween', 'doremiDead', -230, 1.5, 'backIn')
+  end
+  
     if curStep == 480 then
         setProperty('doremiDead.visible', false)
     end    
@@ -76,7 +69,7 @@ function onStepHit()
     
     if curStep == 1040 then
         doTweenAlpha('fb_1', 'fb_1', 0.4, 1.5, 'linear')
-        doTweenX('desl1', 'fb_1', -5, 8, 'linear')
+        doTweenX('desl1', 'fb_1', -5, 6.7, 'linear')
     end
     
     if curStep == 1096 then
@@ -105,15 +98,7 @@ function onStepHit()
         setProperty('Health.visible', true)
         setProperty('scoreTxt.visible', true)
         setProperty('day.visible', false)
-        initLuaShader('night')
-        setSpriteShader('dad', 'night')
-        setSpriteShader('boyfriend', 'night')
-        setSpriteShader('gf', 'night')
         setProperty('fb_4.alpha', 0)
-        initLuaShader('night')
-        setSpriteShader('dad', 'night')
-        setSpriteShader('boyfriend', 'night')
-        setSpriteShader('gf', 'night')
         setProperty('camZoomingMult', 1);
     end
     
@@ -125,29 +110,17 @@ function onStepHit()
         setProperty('day.colorTransform.greenOffset', 0)
         setProperty('day.colorTransform.blueOffset', 0)
     end
-end
 
-function onTweenCompleted(tag)
-    if tag == 'caidaDoremi' then
-        setProperty('doremiDead.x', 400)
-        setProperty('doremiDead.y', -30)
-        
-        isSwinging = true
+  function onTweenCompleted(tag)
+    if tag == 'doremiFallTween' then
+        doremiSwinging = true
     end
 end
 
 function onUpdate(elapsed)
-    if isSwinging then
+    if doremiSwinging then
         swingTime = swingTime + elapsed
-        
-        setProperty('doremiDead.x', 400)
-        setProperty('doremiDead.y', -30)
-        
-        local anguloActual = math.sin(swingTime * swingSpeed) * swingIntensity
-        setProperty('doremiDead.angle', anguloActual)
-        
-        if swingIntensity > 0.5 then
-            swingIntensity = swingIntensity - (elapsed * 1.5)
-        end
+        setProperty('doremiDead.angle', math.sin(swingTime * 1.5) * 0.5)
     end
+  end
 end
